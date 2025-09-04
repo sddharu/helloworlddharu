@@ -84,7 +84,7 @@ def escapeXMLChars(text: str) -> str:
     return text.replace("<", "&lt;").replace(">", "&gt;").replace("&", "&amp;")
 
 # Example usage:
-ssml_string = '<speak>Hello, <break time="500ms"/>world!</speak>'
+ssml_string = '<speak>Hello, <break time="500ms"/>dharani!</speak>'
 parsed_ssml = parseSSML(ssml_string)
 text = ssmlNodeToText(parsed_ssml)
 print(text)
