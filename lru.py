@@ -53,4 +53,8 @@ c.set("c",3)
 print(c.has("b"))
 print(c.has("a"))
 print(c.has("c"))
+c.set("d",4)
+print(c.has("d"))
+print(c.has("c"))
+print(c.has("a"))
 
